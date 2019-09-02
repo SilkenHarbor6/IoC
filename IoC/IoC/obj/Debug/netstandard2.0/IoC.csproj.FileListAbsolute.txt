@@ -1,12 +1,12 @@
 C:\Users\bryan.palmafgksa\Desktop\Xamarin\IoC\IoC\IoC\bin\Debug\netstandard2.0\IoC.deps.json
 C:\Users\bryan.palmafgksa\Desktop\Xamarin\IoC\IoC\IoC\bin\Debug\netstandard2.0\IoC.dll
 C:\Users\bryan.palmafgksa\Desktop\Xamarin\IoC\IoC\IoC\bin\Debug\netstandard2.0\IoC.pdb
+C:\Users\bryan.palmafgksa\Desktop\Xamarin\IoC\IoC\IoC\bin\Debug\netstandard2.0\DLL.dll
+C:\Users\bryan.palmafgksa\Desktop\Xamarin\IoC\IoC\IoC\bin\Debug\netstandard2.0\DLL.pdb
 C:\Users\bryan.palmafgksa\Desktop\Xamarin\IoC\IoC\IoC\obj\Debug\netstandard2.0\IoC.csprojAssemblyReference.cache
 C:\Users\bryan.palmafgksa\Desktop\Xamarin\IoC\IoC\IoC\obj\Debug\netstandard2.0\IoC.csproj.CoreCompileInputs.cache
 C:\Users\bryan.palmafgksa\Desktop\Xamarin\IoC\IoC\IoC\obj\Debug\netstandard2.0\IoC.AssemblyInfoInputs.cache
 C:\Users\bryan.palmafgksa\Desktop\Xamarin\IoC\IoC\IoC\obj\Debug\netstandard2.0\IoC.AssemblyInfo.cs
+C:\Users\bryan.palmafgksa\Desktop\Xamarin\IoC\IoC\IoC\obj\Debug\netstandard2.0\IoC.csproj.CopyComplete
 C:\Users\bryan.palmafgksa\Desktop\Xamarin\IoC\IoC\IoC\obj\Debug\netstandard2.0\IoC.dll
 C:\Users\bryan.palmafgksa\Desktop\Xamarin\IoC\IoC\IoC\obj\Debug\netstandard2.0\IoC.pdb
-C:\Users\bryan.palmafgksa\Desktop\Xamarin\IoC\IoC\IoC\bin\Debug\netstandard2.0\DLL.dll
-C:\Users\bryan.palmafgksa\Desktop\Xamarin\IoC\IoC\IoC\bin\Debug\netstandard2.0\DLL.pdb
-C:\Users\bryan.palmafgksa\Desktop\Xamarin\IoC\IoC\IoC\obj\Debug\netstandard2.0\IoC.csproj.CopyComplete

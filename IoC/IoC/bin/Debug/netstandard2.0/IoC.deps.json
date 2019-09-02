@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "75cb2681c573bbe19c8046b9df16c16b6e8340fd"
+    "signature": "0685f8f3d8ed49549ed5da6ee6635c3188b886ac"
   },
   "compilationOptions": {},
   "targets": {
@@ -12,6 +12,7 @@
           "DLL": "1.0.0",
           "MvvmLightLibs": "5.4.1.1",
           "NETStandard.Library": "2.0.1",
+          "Rg.Plugins.Popup": "1.1.5.188",
           "Xamarin.Forms": "3.0.0.482510"
         },
         "runtime": {
@@ -30,6 +31,14 @@
       "NETStandard.Library/2.0.1": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "Rg.Plugins.Popup/1.1.5.188": {
+        "dependencies": {
+          "Xamarin.Forms": "3.0.0.482510"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Rg.Plugins.Popup.dll": {}
         }
       },
       "Xamarin.Forms/3.0.0.482510": {
@@ -72,6 +81,13 @@
       "sha512": "sha512-dYgVYk+xpF1HsQCQwfXb7JPt+lovQvTsvDUI5wKbxB2A31xbzNLj6u7bz9xyd/rE50OopkdzhCh4IzJzH1fkpw==",
       "path": "netstandard.library/2.0.1",
       "hashPath": "netstandard.library.2.0.1.nupkg.sha512"
+    },
+    "Rg.Plugins.Popup/1.1.5.188": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3z5Q6Bdvhi8J2e5Cj0lEQ3rseZXXYTCFd3FjWjDlRbBnJ2vtNPRui5DE8bwWjA2PiDyK+GNj/bhvy+enEzISBA==",
+      "path": "rg.plugins.popup/1.1.5.188",
+      "hashPath": "rg.plugins.popup.1.1.5.188.nupkg.sha512"
     },
     "Xamarin.Forms/3.0.0.482510": {
       "type": "package",

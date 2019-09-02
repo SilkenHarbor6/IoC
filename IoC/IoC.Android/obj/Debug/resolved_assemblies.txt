@@ -8,6 +8,8 @@ C:\Users\bryan.palmafgksa\Desktop\Xamarin\IoC\IoC\IoC.Android\obj\Debug\android\
 C:\Users\bryan.palmafgksa\Desktop\Xamarin\IoC\IoC\IoC.Android\obj\Debug\android\assets\Java.Interop.dll
 C:\Users\bryan.palmafgksa\Desktop\Xamarin\IoC\IoC\IoC.Android\obj\Debug\android\assets\Mono.Android.dll
 C:\Users\bryan.palmafgksa\Desktop\Xamarin\IoC\IoC\IoC.Android\obj\Debug\android\assets\mscorlib.dll
+C:\Users\bryan.palmafgksa\Desktop\Xamarin\IoC\IoC\IoC.Android\obj\Debug\android\assets\Rg.Plugins.Popup.dll
+C:\Users\bryan.palmafgksa\Desktop\Xamarin\IoC\IoC\IoC.Android\obj\Debug\android\assets\Rg.Plugins.Popup.Droid.dll
 C:\Users\bryan.palmafgksa\Desktop\Xamarin\IoC\IoC\IoC.Android\obj\Debug\android\assets\System.Core.dll
 C:\Users\bryan.palmafgksa\Desktop\Xamarin\IoC\IoC\IoC.Android\obj\Debug\android\assets\System.dll
 C:\Users\bryan.palmafgksa\Desktop\Xamarin\IoC\IoC\IoC.Android\obj\Debug\android\assets\System.Xml.dll
