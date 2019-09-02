@@ -1,0 +1,10 @@
+C:\Users\bryan.palmafgksa\Desktop\Xamarin\IoC\ConsoleApp\bin\Debug\ConsoleApp.exe.config
+C:\Users\bryan.palmafgksa\Desktop\Xamarin\IoC\ConsoleApp\bin\Debug\ConsoleApp.exe
+C:\Users\bryan.palmafgksa\Desktop\Xamarin\IoC\ConsoleApp\bin\Debug\ConsoleApp.pdb
+C:\Users\bryan.palmafgksa\Desktop\Xamarin\IoC\ConsoleApp\bin\Debug\DLL.dll
+C:\Users\bryan.palmafgksa\Desktop\Xamarin\IoC\ConsoleApp\bin\Debug\DLL.pdb
+C:\Users\bryan.palmafgksa\Desktop\Xamarin\IoC\ConsoleApp\obj\Debug\ConsoleApp.csprojAssemblyReference.cache
+C:\Users\bryan.palmafgksa\Desktop\Xamarin\IoC\ConsoleApp\obj\Debug\ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\bryan.palmafgksa\Desktop\Xamarin\IoC\ConsoleApp\obj\Debug\ConsoleApp.csproj.CopyComplete
+C:\Users\bryan.palmafgksa\Desktop\Xamarin\IoC\ConsoleApp\obj\Debug\ConsoleApp.exe
+C:\Users\bryan.palmafgksa\Desktop\Xamarin\IoC\ConsoleApp\obj\Debug\ConsoleApp.pdb
