@@ -128,16 +128,83 @@ namespace ConsoleApp
                         Console.ReadKey();
                         break;
                     case 4:
+                        Console.Clear();
+                        Console.WriteLine("Ingrese el nombre de la persona");
+                        oAl.Nombre = Console.ReadLine();
+                        Console.WriteLine("Ingrese el apellido de la persona");
+                        oAl.Apellido = Console.ReadLine();
+                        Console.WriteLine("Ingrese la direccion de la persona");
+                        oAl.Direccion = Console.ReadLine();
+                        Console.WriteLine("Ingrese la edad de la persona");
+                        oAl.edad = Convert.ToInt16(Console.ReadLine());
+                        Console.Clear();
+                        resp = gestion.Save(oAl);
+                        if (resp)
+                        {
+                            Console.WriteLine("El registro se agrego con exito");
+                            MostrarInfo(gestion.GetAll());
 
+                        }
+                        else
+                        {
+                            Console.WriteLine("hubo un error al guardar el registro");
+                        }
+                        Console.ReadKey();
                         break;
                     case 5:
+                        Console.Clear();
+                        Console.WriteLine("Ingrese el id de la persona que desea modificar");
+                        id = Convert.ToInt32(Console.ReadLine());
+                        Console.Clear();
+                        oAl = gestion.GetById(id);
+                        if (oAl != null)
+                        {
+                            Console.WriteLine("Nombre: {0} {1}", oAl.Nombre, oAl.Apellido);
+                            Console.WriteLine("Direccion: {0}", oAl.Direccion);
+                            Console.WriteLine("Edad: {0}", oAl.edad);
+                            Console.WriteLine("¿Desea actualizar esta persona? (s/n)");
+                            letra = Convert.ToChar(Console.ReadLine().ToLower().Trim());
+                            Console.Clear();
+                            if (letra.Equals('s'))
+                            {
+                                Console.WriteLine("Ingrese el nombre de la persona");
+                                oAl.Nombre = Console.ReadLine();
+                                Console.WriteLine("Ingrese el apellido de la persona");
+                                oAl.Apellido = Console.ReadLine();
+                                Console.WriteLine("Ingrese la direccion de la persona");
+                                oAl.Direccion = Console.ReadLine();
+                                Console.WriteLine("Ingrese la edad de la persona");
+                                oAl.edad = Convert.ToInt16(Console.ReadLine());
+                                resp = gestion.Update(oAl);
+                                if (resp)
+                                {
+                                    Console.WriteLine("El registro se actualizo correctamente");
+                                    MostrarInfo(gestion.GetAll());
+                                }
+                                else
+                                {
+                                    Console.WriteLine("Hubo un error al actualizar el registro");
+                                }
+                            }
+                            else
+                            {
+                                Console.WriteLine("Operacion cancelada");
+                            }
+                            Console.ReadKey();
+                        }
+                        else
+                        {
+                            Console.WriteLine("No existe ninguna persona registrada con ese id");
+                        }
                         break;
                     case 6:
+                        per = false;
                         break;
                     default:
+                        Console.WriteLine("La opcion ingresada es invalida");
                         break;
                 }
-            } while (true);
+            } while (per);
         }
     }
 }

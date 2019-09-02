@@ -1,3 +1,5 @@
+using DLL.Model;
+using DLL.ModeloInyeccion;
 using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -10,9 +12,11 @@ namespace IoC
 		public App ()
 		{
 			InitializeComponent();
-
-			MainPage = new MainPage();
-		}
+            Inyector.Map<IBaseDatos, BaseDatos>();
+            Inyector.Map<IPersona, Alumno>();
+            MainPage = new MainPage();
+            
+        }
 
 		protected override void OnStart ()
 		{
