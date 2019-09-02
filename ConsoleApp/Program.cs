@@ -14,7 +14,8 @@ namespace ConsoleApp
         static int res, id;
         static bool per = true, resp;
         static char letra;
-        static IPersona oAl = new Alumno();
+
+
         //static IRepository datos = new ProxyRepository();
         //static List<Persona> listaPersonas;
         public static void GetMenu()
@@ -39,18 +40,19 @@ namespace ConsoleApp
                 Console.WriteLine();
             }
         }
+
         static void Main(string[] args)
         {
             int opcion;
-            
             //Registrar las independencias
             Inyector.Map<IBaseDatos, BaseDatos>();
-            Inyector.Map<IPersona,Alumno>();
+            Inyector.Map<IPersona, Alumno>();
+            IPersona oAl = new Alumno();
 
             var alumno = Inyector.Get<IPersona>();
             var gestion = Inyector.Get<IBaseDatos>();
 
-            
+
 
 
             //Lista de registros
